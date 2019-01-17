@@ -35,5 +35,3 @@ def kesha_maker(strings)
   end
   new_strings
 end
-
-
