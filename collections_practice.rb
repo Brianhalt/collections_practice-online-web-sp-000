@@ -25,4 +25,3 @@ def reverse_array(integers)
   integers.reverse
   return integers
 end  
-    
