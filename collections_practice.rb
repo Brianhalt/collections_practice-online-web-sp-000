@@ -45,3 +45,10 @@ def find_a(strings)
     word.start_with? "a"
   end  
 end
+
+def sum_array(integers)
+  integers.inject (0) {|sum, object| sum + object}
+end  
+
+
+
