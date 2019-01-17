@@ -40,3 +40,9 @@ def find_a(strings)
   new_array = strings.start_with "a"
   new_array
 end
+
+
+
+
+
+
