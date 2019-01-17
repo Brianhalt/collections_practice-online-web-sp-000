@@ -9,3 +9,7 @@ def sort_array_desc(integers)
     b <=> a
   end
 end
+
+def sort_array_char_count(strings)
+  strings.sort{|a,b| a.lenth <=> b.lenth}
+end
