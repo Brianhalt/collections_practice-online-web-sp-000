@@ -49,3 +49,16 @@ end
 def sum_array(integers)
   integers.inject (0) {|sum, object| sum + object}
 end
+
+def add_s(strings)
+  strings.each_with_index.collect do |word, index|
+    if word == "feet"
+      word
+    else
+      word << "s"
+    end
+  end
+end
+
+
+end  
