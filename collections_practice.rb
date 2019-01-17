@@ -52,7 +52,7 @@ end
 
 def add_s(strings)
   strings.each_with_index.collect do |word, index|
-    if word_array = "feet"
+    if word = "feet"
       word
     else
       word << "s"
