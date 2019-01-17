@@ -25,3 +25,9 @@ def reverse_array(integers)
   new_array = integers.reverse
   new_array
 end
+
+def kesha_maker(strings)
+  stings.each do |word|
+    strings[2] = "$"
+  end  
+end  
