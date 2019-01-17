@@ -4,7 +4,7 @@ def sort_array_asc(integers)
   end
 end
 
-def sort_array_decs(integers)
+def sort_array_desc(integers)
   integers.sort do |a, b|
     b <=> a
   end
