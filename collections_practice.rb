@@ -19,5 +19,4 @@ end
 def swap_elements(elements)
   elements[1], elements[2] = elements[2], elements[1]
   return elements
-end  
-  
+end
