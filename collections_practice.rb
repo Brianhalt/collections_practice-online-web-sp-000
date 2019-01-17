@@ -29,5 +29,5 @@ end
 def kesha_maker(strings)
   stings.each do |word|
     strings[2] = "$"
-  end  
+  end
 end  
