@@ -39,11 +39,3 @@ end
 def find_a(strings)
   strings.select{|word| strings.start_with?("a")}
 end
-
-
-
-
-
-
-
-
