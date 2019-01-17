@@ -43,12 +43,9 @@ end
 def find_a(strings)
   strings.select do |word|
     word.start_with? "a"
-  end  
+  end
 end
 
 def sum_array(integers)
   integers.inject (0) {|sum, object| sum + object}
-end  
-
-
-
+end
