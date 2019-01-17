@@ -20,3 +20,9 @@ def swap_elements(elements)
   elements[1], elements[2] = elements[2], elements[1]
   return elements
 end
+
+def reverse_array(integers)
+  integers.reverse
+  return integers
+end  
+    
