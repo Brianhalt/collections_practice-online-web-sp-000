@@ -28,6 +28,8 @@ end
 
 def kesha_maker(strings)
   stings.each do |word|
-    strings[2] = "$"
+    word_array = word.split ""
+    word_array[2] = "$"
+    word << word_array.join
   end
 end  
