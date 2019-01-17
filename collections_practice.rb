@@ -32,4 +32,4 @@ def kesha_maker(strings)
     word_array[2] = "$"
     word << word_array.join
   end
-end  
+end
